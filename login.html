@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="navbar.css" rel="stylesheet" >
+    <link href="hideshow.css" rel="stylesheet" >
+    <link href="login.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+
+    <title>home</title>
+  </head>
+  <body id="body-pd">
+
+
+
+<!--graph0-->
+    <html>
+      <link rel=
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        type="text/css" />
+      <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+          type="text/javascript">
+      </script>
+      <script src=
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src=
+      "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+      <style>
+        .container {
+          width: 70%;
+          margin: 15px auto;
+        }
+      
+        body {
+          text-align: center;
+          color: green;
+        }
+      
+        h2 {
+          text-align: center;
+          font-family: "Verdana", sans-serif;
+          font-size: 30px;
+        }
+      </style>
+      
+      <body>
+        <div class="container">
+          <h2>Mood chart</h2>
+          <h5 id="header">your mood is</h5>
+          <div>
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+      </body>
+      
+      <script>
+        let ctx = document.getElementById("myChart").getContext("2d");
+        let myChart = new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            datasets: [
+              {
+                label: "work load",
+                data: [2, 9, 3, 17, 6, 3, 7],
+                backgroundColor: "rgba(153,205,1,0.6)",
+              },
+              {
+                label: "free hours",
+                data: [2, 2, 5, 5, 2, 1, 10],
+                backgroundColor: "rgba(155,153,10,0.6)",
+              },
+            ],
+          },
+        });
+      </script>
+      </html>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+<!--graph0-->
+
+    <!--navbar start-->
+<!--
+    <header class="header opacity-75" id="header" >
+        <div class="header_toggle" > <i class='bx bx-menu' id="header-toggle" ></i> </div>
+        <div class="header_img"> <img src="https://i.imgur.com/hczKIze.jpg" alt=""> </div>
+    </header>
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div> <a href="home test.html" class="nav_logo"> <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">BBBootstrap</span> </a>
+                <div class="nav_list">
+                     <a href="home test.html" class="nav_link">                             
+                         <i class='bx bx-grid-alt nav_icon'></i> 
+                         <i class='bx bx-share-alt nav_icon'></i>
+                         <span class="nav_name">Dashboard</span>     
+                    </a> 
+                    <a href="account.html" class="nav_link "> 
+                        <i class='bx bx-user-pin nav_icon'></i> 
+                        <span class="nav_name">Account</span> 
+                    </a> 
+                    <a href="pg3_messages.html" class="nav_link"> 
+                        <i class='bx bx-message-square-detail nav_icon'></i> 
+                        <span class="nav_name">Messages</span> 
+                    </a> 
+                </div>
+            </div> 
+        </nav>
+    </div>
+  -->
+    <!--navbar end-->
+  
+
+
+
+
+
+    <!--<div class="row" class="fixed-top" style="padding: 5vw;">
+
+        
+      
+      </div>-->
+      
+      <!--space-->
+      <!--
+      
+        <div class="row" class="fixed-top" style="padding: 5vw;"></div>
+      <div class="row rounded" style=" margin-right: 1vh; margin-top: 1vh; margin-bottom: 3vw; padding-left: 6vh; padding-bottom: 7vh;">
+
+        <div style="padding:2vh; font-size:xx-large;">
+          <div style="font-weight: bolder;">Let’s setup your account</div>
+        </div>
+        <div style="font-weight: bolder;">Account can be your bank, credit card or your wallet.</div>
+      -->
+        <!--space--><div class="row" class="fixed-top" style="padding: 5vw;"></div>
+
+
+
+
+        <!--graphs
+        <canvas id="lineChart"></canvas>
+        graph-->
+
+
+        <!--textbox-->
+        <!--
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip01">First name</label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip02">Last name</label>
+              <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltipUsername">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip03">City</label>
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip04">State</label>
+              <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+              <div class="invalid-tooltip">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip05">Zip</label>
+              <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div> 
+          </div>
+        -->
+
+
+        <!-- <label for="validationTooltip03">Text</label> -->
+          <input type="text" class="form-control" id="text" placeholder="enter here" required>
+          
+          <button class="btn btn-primary" type="submit" onclick="nlp()">enter</button>
+          
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div> 
+
+
+
+
+
+        <div class="col-md-6 mb-3">
+          
+        </div>
+        
+          <div class="d-grid gap-2">
+        
+          </div>
+
+          
+            <!-- <button class="btn btn-primary" type="submit">enter</button> -->  
+          
+        
+        </form>
+        <script>
+          function nlp(){
+          const a=document.getElementById("text").value;
+          var uri = "";
+          fetch("http://127.0.0.1:8000/api/", {
+          method: "POST",
+          body: JSON.stringify({
+                text:a
+              }),
+
+          headers: {
+             "Content-type": "application/json; charset=UTF-8"
+                    }
+          })
+          .then((response) => response.json())
+          .then((vr) => {
+          let author=vr;
+          console.log(author)
+          if(author.neu>author.pos && author.new>author.neg){
+            
+            document.getElementById("header").innerHTML="YOur mood is neutral"
+          }
+          
+          
+
+          });
+          
+        }
+        </script>
+        <!--textbox-->
+     
+        <!--
+      <div class="d-grid gap-2">
+        <a class="btn btn-primary " style="background-color: #3b8d98; font-weight: bolder" href="age.html"
+        role="button">Let's Go</a>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Submit form</button>
+        -->
+
+</div>
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--graph
+<script>
+
+//line
+var ctxL = document.getElementById("lineChart").getContext('2d');
+var myLineChart = new Chart(ctxL, {
+  type: 'line',
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [{
+      label: "My First dataset",
+      data: [65, 59, 80, 81, 56, 55, 40],
+      backgroundColor: [
+        'rgba(105, 0, 132, .2)',
+      ],
+      borderColor: [
+        'rgba(200, 99, 132, .7)',
+      ],
+      borderWidth: 2
+    },
+    {
+      label: "My Second dataset",
+      data: [28, 48, 40, 19, 86, 27, 90],
+      backgroundColor: [
+        'rgba(0, 137, 132, .2)',
+      ],
+      borderColor: [
+        'rgba(0, 10, 130, .7)',
+      ],
+      borderWidth: 2
+    }
+    ]
+  },
+  options: {
+    responsive: true
+  }
+});
+
+</script>
+graph-->
+
+
+
+
+    <script>
+        function includeHTML() {
+          var z, i, elmnt, file, xhttp;
+          /* Loop through a collection of all HTML elements: */
+          z = document.getElementsByTagName("*");
+          for (i = 0; i < z.length; i++) {
+            elmnt = z[i];
+            /*search for elements with a certain atrribute:*/
+            file = elmnt.getAttribute("w3-include-html");
+            if (file) {
+              /* Make an HTTP request using the attribute value as the file name: */
+              xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                  /* Remove the attribute, and call this function once more: */
+                  elmnt.removeAttribute("w3-include-html");
+                  includeHTML();
+                }
+              }
+              xhttp.open("GET", file, true);
+              xhttp.send();
+              /* Exit the function: */
+              return;
+            }
+          }
+        }
+        </script>
+
+        <script>
+            includeHTML();
+            </script>
+        <!-- html inside html script ends -->
+        
+            <!-- Optional JavaScript; choose one of the two! -->
+        
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            -->
+        
+            <!-- script for hideshow starts-->
+            <script src="navbar.js"></script>
+            <script src="hideshow.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+            
+            
+            <!-- script for icons starts-->
+            
+            <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+            <!-- script for icons ends-->
+
+
+            
+        
+          </body>
+</html>
